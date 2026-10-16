@@ -1,0 +1,150 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Hieronder mag je eigen CSS code */
+ body {
+    display: grid; 
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 5vh 65vh 30vh 30vh ;
+ }
+#nav {
+    /* background-color: beige; */
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-image: URL("img/logo.png");
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+
+        display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:end;
+}
+
+
+
+#menu{
+    width: 5vh;
+}
+
+#nav2 {
+    /* background-color: beige; */
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-image: URL("img/menu.png");
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#nav3 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    background-image: url("img/login.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+#zed { 
+    background-color: white;
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+   background-image: url(img/Scherm­afbeelding\ 2026-10-15\ om\ 15.15.44.png);
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#allfonts {
+    background-color: #FF6600;
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+    border-radius: 30px;
+    background-image: url(img/allfonts.png);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#globalfonts {
+    background-color: black;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    border-radius: 30px;
+    background-image: url(img/globalfonts.png);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#variablefonts {
+    background-color: #FFBACF;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    border-radius: 30px;
+    background-image: url(img/variablefonts.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#smartfonts {
+    background-color: #00B7DE;
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    border-radius: 30px;
+    background-image: url(img/Smartfonts.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#superfamilies {
+    background-color: #B5EDFF;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    border-radius: 30px;
+    background-image: url(img/superfamilies.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#legibilityfonts {
+    background-color:#BEA174;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    border-radius: 30px;
+    background-image: url(img/legibilityfonts.png);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#opticalsizes {
+    background-color: #FF4D00;
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+    border-radius: 30px;
+    background-image: url(img/opticalsizes.png);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
