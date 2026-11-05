@@ -15,6 +15,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+div{
+    border: 2px solid white;
+}
 /* Hieronder mag je eigen CSS code */
  body {
     display: grid; 
